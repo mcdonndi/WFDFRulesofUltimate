@@ -23,6 +23,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/article_1_point_1"
+            android:padding="8dp"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/article_2"
             android:padding="8dp"
             android:textColor="@color/colorAccent"
