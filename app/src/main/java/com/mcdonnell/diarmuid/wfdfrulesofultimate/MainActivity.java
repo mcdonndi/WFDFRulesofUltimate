@@ -8,8 +8,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView articleOne, articleOnePointOne;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +21,18 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        articleOne = (TextView) findViewById(R.id.article1);
+        articleOnePointOne = (TextView) findViewById(R.id.article1_1);
+
+        articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v){
+                if(articleOnePointOne.getVisibility() == View.VISIBLE) {
+                    articleOnePointOne.setVisibility(View.GONE);
+                }
+                else{
+                    articleOnePointOne.setVisibility(View.VISIBLE);
+                }
             }
         });
     }

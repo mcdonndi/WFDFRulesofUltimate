@@ -14,31 +14,38 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/article1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/article_1"
             android:padding="8dp"
             android:textColor="@color/colorAccent"
-            android:background="@drawable/border"/>
+            android:background="@drawable/border"
+            android:clickable="true"/>
         <TextView
+            android:id="@+id/article1_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/article_1_point_1"
             android:padding="8dp"
             android:visibility="gone"/>
         <TextView
+            android:id="@+id/article2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/article_2"
             android:padding="8dp"
             android:textColor="@color/colorAccent"
-            android:background="@drawable/border"/>
+            android:background="@drawable/border"
+            android:clickable="true"/>
         <TextView
+            android:id="@+id/article3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/article_3"
             android:padding="8dp"
             android:textColor="@color/colorAccent"
-            android:background="@drawable/border"/>
+            android:background="@drawable/border"
+            android:clickable="false"/>
     </LinearLayout>
 </ScrollView>
