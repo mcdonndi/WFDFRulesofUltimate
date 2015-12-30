@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!--Article 1-->
         <TextView
             android:id="@+id/article1"
             android:layout_width="match_parent"
@@ -23,6 +24,7 @@
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
             android:clickable="true"/>
+        <!--Article 1 contents-->
         <TextView
             android:id="@+id/article1_1"
             android:layout_width="match_parent"
@@ -30,6 +32,7 @@
             android:text="@string/article_1_point_1"
             android:padding="8dp"
             android:visibility="gone"/>
+        <!--Article 2-->
         <TextView
             android:id="@+id/article2"
             android:layout_width="match_parent"
@@ -40,6 +43,8 @@
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
             android:clickable="true"/>
+        <!--Article 2 contents-->
+        <!--Article 3-->
         <TextView
             android:id="@+id/article3"
             android:layout_width="match_parent"
@@ -50,5 +55,210 @@
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
             android:clickable="false"/>
+        <!--Article 3 contents-->
+        <!--Article 4-->
+        <TextView
+            android:id="@+id/article4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_4"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 4 contents-->
+        <!--Article 5-->
+        <TextView
+            android:id="@+id/article5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_5"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 5 contents-->
+        <!--Article 6-->
+        <TextView
+            android:id="@+id/article6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_6"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 6 contents-->
+        <!--Article 7-->
+        <TextView
+            android:id="@+id/article7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_7"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 7 contents-->
+        <!--Article 8-->
+        <TextView
+            android:id="@+id/article8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_8"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 8 contents-->
+        <!--Article 9-->
+        <TextView
+            android:id="@+id/article9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_9"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 9 contents-->
+        <!--Article 10-->
+        <TextView
+            android:id="@+id/article10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_10"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 10 contents-->
+        <!--Article 11-->
+        <TextView
+            android:id="@+id/article11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_11"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 11 contents-->
+        <!--Article 12-->
+        <TextView
+            android:id="@+id/article12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_12"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 12 contents-->
+        <!--Article 13-->
+        <TextView
+            android:id="@+id/article13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_13"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 13 contents-->
+        <!--Article 14-->
+        <TextView
+            android:id="@+id/article14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_14"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 14 contents-->
+        <!--Article 15-->
+        <TextView
+            android:id="@+id/article15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_15"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 15 contents-->
+        <!--Article 16-->
+        <TextView
+            android:id="@+id/article16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_16"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 16 contents-->
+        <!--Article 17-->
+        <TextView
+            android:id="@+id/article17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_17"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 17 contents-->
+        <!--Article 18-->
+        <TextView
+            android:id="@+id/article18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_18"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 18 contents-->
+        <!--Article 19-->
+        <TextView
+            android:id="@+id/article19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_19"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 19 contents-->
+        <!--Article 20-->
+        <TextView
+            android:id="@+id/article20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_20"
+            android:textSize="@dimen/subheading"
+            android:padding="8dp"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/border"
+            android:clickable="false"/>
+        <!--Article 20 contents-->
     </LinearLayout>
 </ScrollView>
