@@ -32,6 +32,20 @@
             android:text="@string/article_1_point_1"
             android:padding="8dp"
             android:visibility="gone"/>
+        <TextView
+            android:id="@+id/article1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_1_point_2"
+            android:padding="8dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/article1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/article_1_point_3"
+            android:padding="8dp"
+            android:visibility="gone"/>
         <!--Article 2-->
         <TextView
             android:id="@+id/article2"
@@ -54,7 +68,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 3 contents-->
         <!--Article 4-->
         <TextView
@@ -66,7 +80,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 4 contents-->
         <!--Article 5-->
         <TextView
@@ -78,7 +92,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 5 contents-->
         <!--Article 6-->
         <TextView
@@ -90,7 +104,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 6 contents-->
         <!--Article 7-->
         <TextView
@@ -102,7 +116,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 7 contents-->
         <!--Article 8-->
         <TextView
@@ -114,7 +128,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 8 contents-->
         <!--Article 9-->
         <TextView
@@ -126,7 +140,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 9 contents-->
         <!--Article 10-->
         <TextView
@@ -138,7 +152,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 10 contents-->
         <!--Article 11-->
         <TextView
@@ -150,7 +164,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 11 contents-->
         <!--Article 12-->
         <TextView
@@ -162,7 +176,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 12 contents-->
         <!--Article 13-->
         <TextView
@@ -174,7 +188,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 13 contents-->
         <!--Article 14-->
         <TextView
@@ -186,7 +200,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 14 contents-->
         <!--Article 15-->
         <TextView
@@ -198,7 +212,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 15 contents-->
         <!--Article 16-->
         <TextView
@@ -210,7 +224,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 16 contents-->
         <!--Article 17-->
         <TextView
@@ -222,7 +236,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 17 contents-->
         <!--Article 18-->
         <TextView
@@ -234,7 +248,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 18 contents-->
         <!--Article 19-->
         <TextView
@@ -246,7 +260,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 19 contents-->
         <!--Article 20-->
         <TextView
@@ -258,7 +272,7 @@
             android:padding="8dp"
             android:textColor="@color/colorAccent"
             android:background="@drawable/border"
-            android:clickable="false"/>
+            android:clickable="true"/>
         <!--Article 20 contents-->
     </LinearLayout>
 </ScrollView>

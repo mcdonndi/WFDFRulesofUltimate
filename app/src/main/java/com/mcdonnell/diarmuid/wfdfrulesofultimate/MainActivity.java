@@ -12,7 +12,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView articleOne, articleOnePointOne;
+    TextView articleOne;
+    TextView articleOnePointOne, articleOnePointTwo, articleOnePointThree;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +23,23 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         articleOne = (TextView) findViewById(R.id.article1);
+
         articleOnePointOne = (TextView) findViewById(R.id.article1_1);
+        articleOnePointTwo = (TextView) findViewById(R.id.article1_2);
+        articleOnePointThree = (TextView) findViewById(R.id.article1_3);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 if(articleOnePointOne.getVisibility() == View.VISIBLE) {
                     articleOnePointOne.setVisibility(View.GONE);
+                    articleOnePointTwo.setVisibility(View.GONE);
+                    articleOnePointThree.setVisibility(View.GONE);
                 }
                 else{
                     articleOnePointOne.setVisibility(View.VISIBLE);
+                    articleOnePointTwo.setVisibility(View.VISIBLE);
+                    articleOnePointThree.setVisibility(View.VISIBLE);
                 }
             }
         });
