@@ -8,12 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     TextView articleOne;
-    TextView articleOnePointOne, articleOnePointTwo, articleOnePointThree;
+    LinearLayout articleOneContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,22 +25,16 @@ public class MainActivity extends AppCompatActivity {
 
         articleOne = (TextView) findViewById(R.id.article1);
 
-        articleOnePointOne = (TextView) findViewById(R.id.article1_1);
-        articleOnePointTwo = (TextView) findViewById(R.id.article1_2);
-        articleOnePointThree = (TextView) findViewById(R.id.article1_3);
+        articleOneContent = (LinearLayout) findViewById(R.id.article1Content);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(articleOnePointOne.getVisibility() == View.VISIBLE) {
-                    articleOnePointOne.setVisibility(View.GONE);
-                    articleOnePointTwo.setVisibility(View.GONE);
-                    articleOnePointThree.setVisibility(View.GONE);
+                if(articleOneContent.getVisibility() == View.VISIBLE) {
+                    articleOneContent.setVisibility(View.GONE);
                 }
                 else{
-                    articleOnePointOne.setVisibility(View.VISIBLE);
-                    articleOnePointTwo.setVisibility(View.VISIBLE);
-                    articleOnePointThree.setVisibility(View.VISIBLE);
+                    articleOneContent.setVisibility(View.VISIBLE);
                 }
             }
         });

@@ -25,27 +25,28 @@
             android:background="@drawable/border"
             android:clickable="true"/>
         <!--Article 1 contents-->
-        <TextView
-            android:id="@+id/article1_1"
+        <LinearLayout
+            android:id="@+id/article1Content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/article_1_point_1"
-            android:padding="8dp"
-            android:visibility="gone"/>
-        <TextView
-            android:id="@+id/article1_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/article_1_point_2"
-            android:padding="8dp"
-            android:visibility="gone"/>
-        <TextView
-            android:id="@+id/article1_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/article_1_point_3"
-            android:padding="8dp"
-            android:visibility="gone"/>
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/article_1_point_1"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/article_1_point_2"
+                android:padding="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/article_1_point_3"
+                android:padding="8dp"/>
+        </LinearLayout>
         <!--Article 2-->
         <TextView
             android:id="@+id/article2"
