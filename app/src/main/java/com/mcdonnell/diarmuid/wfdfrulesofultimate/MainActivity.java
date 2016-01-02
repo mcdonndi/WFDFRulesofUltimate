@@ -13,8 +13,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView articleOne;
-    LinearLayout articleOneContent;
+    TextView articleOne, articleTwo;
+    LinearLayout articleOneContent, articleTwoContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         articleOne = (TextView) findViewById(R.id.article1);
+        articleTwo = (TextView) findViewById(R.id.article2);
 
         articleOneContent = (LinearLayout) findViewById(R.id.article1Content);
+        articleTwoContent = (LinearLayout) findViewById(R.id.article2Content);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -35,6 +37,17 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                     articleOneContent.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+        articleTwo.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if(articleTwoContent.getVisibility() == View.VISIBLE) {
+                    articleTwoContent.setVisibility(View.GONE);
+                }
+                else{
+                    articleTwoContent.setVisibility(View.VISIBLE);
                 }
             }
         });
