@@ -56,6 +56,13 @@
     <string name= "article1_10">1.10</string>
     <string name= "article1_11">1.11</string>
     <string name= "article1_12">1.12</string>
+    <string name= "article2_1">2.1</string>
+    <string name= "article2_2">2.2</string>
+    <string name= "article2_3">2.3</string>
+    <string name= "article2_4">2.4</string>
+    <string name= "article2_5">2.5</string>
+    <string name= "article2_6">2.6</string>
+    <string name= "article2_7">2.7</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -108,4 +115,18 @@ and line calls.</string>
     <string name= "article_1_point_11">Players and captains are solely responsible for making all calls.</string>
     <string name= "article_1_point_12">If, after discussion, players cannot agree what occurred in a play, the disc shall be
 returned to the last non-disputed thrower.</string>
+    <!--Article 2-->
+    <string name= "article_2_point_1">The playing field is a rectangle area with dimensions and zones as shown on Figure 1.</string>
+    <string name= "article_2_point_2">The perimeter lines surround the playing field and consist of two (2) sidelines along the
+length and two (2) endlines along the width.</string>
+    <string name= "article_2_point_3">The perimeter lines are not part of the playing field.</string>
+    <string name= "article_2_point_4">The goal lines are the lines that separate the central zone from the end zones and are
+part of the central zone.</string>
+    <string name= "article_2_point_5">The brick mark is the intersection of two (2) crossed one (1) metre lines in the central
+zone set eighteen (18) metres from each goal line, midway between the sidelines.</string>
+    <string name= "article_2_point_6">Eight brightly-coloured, flexible objects (such as plastic cones) mark the corners of the
+central zone and the end zones.</string>
+    <string name= "article_2_point_7">The immediate surroundings of the playing field shall be kept clear of movable objects. If
+play is obstructed by non-players or objects within three (3) metres of the perimeter
+line, any obstructed player or thrower in possession may call “Violation”.</string>
 </resources>
