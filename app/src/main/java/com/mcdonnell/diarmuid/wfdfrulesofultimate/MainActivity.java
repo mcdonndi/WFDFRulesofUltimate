@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     articleOneContent.setVisibility(View.GONE);
                 }
                 else{
+                    setContentsToGone();
                     articleOneContent.setVisibility(View.VISIBLE);
                 }
             }
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     articleTwoContent.setVisibility(View.GONE);
                 }
                 else{
+                    setContentsToGone();
                     articleTwoContent.setVisibility(View.VISIBLE);
                 }
             }
@@ -73,5 +75,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void setContentsToGone(){
+        articleOneContent.setVisibility(View.GONE);
+        articleTwoContent.setVisibility(View.GONE);
     }
 }
