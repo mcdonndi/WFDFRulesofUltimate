@@ -63,6 +63,10 @@
     <string name= "article2_5">2.5</string>
     <string name= "article2_6">2.6</string>
     <string name= "article2_7">2.7</string>
+    <string name= "article3_1">3.1</string>
+    <string name= "article3_2">3.2</string>
+    <string name= "article3_3">3.3</string>
+    <string name= "article3_4">3.4</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -129,4 +133,10 @@ central zone and the end zones.</string>
     <string name= "article_2_point_7">The immediate surroundings of the playing field shall be kept clear of movable objects. If
 play is obstructed by non-players or objects within three (3) metres of the perimeter
 line, any obstructed player or thrower in possession may call “Violation”.</string>
+    <!--Article 3-->
+    <string name= "article_3_point_1">Any flying disc acceptable to both captains may be used.</string>
+    <string name= "article_3_point_2">WFDF may maintain a list of approved discs recommended for use.</string>
+    <string name= "article_3_point_3">Each player must wear a uniform that distinguishes their team.</string>
+    <string name= "article_3_point_4">No player may wear items of clothing or equipment that reasonably could harm the
+wearer or other players.</string>
 </resources>

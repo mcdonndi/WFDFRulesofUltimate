@@ -15,8 +15,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     ScrollView scrollView;
-    TextView articleOne, articleTwo;
-    LinearLayout articleOneContent, articleTwoContent;
+    TextView articleOne, articleTwo, articleThree;
+    LinearLayout articleOneContent, articleTwoContent, articleThreeContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +29,11 @@ public class MainActivity extends AppCompatActivity {
 
         articleOne = (TextView) findViewById(R.id.article1);
         articleTwo = (TextView) findViewById(R.id.article2);
+        articleThree = (TextView) findViewById(R.id.article3);
 
         articleOneContent = (LinearLayout) findViewById(R.id.article1Content);
         articleTwoContent = (LinearLayout) findViewById(R.id.article2Content);
+        articleThreeContent = (LinearLayout) findViewById(R.id.article3Content);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -54,6 +56,19 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     setContentsToGone();
                     articleTwoContent.setVisibility(View.VISIBLE);
+                    scrollView.scrollTo(0, 0);
+                }
+            }
+        });
+        articleThree.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if(articleThreeContent.getVisibility() == View.VISIBLE) {
+                    articleThreeContent.setVisibility(View.GONE);
+                }
+                else{
+                    setContentsToGone();
+                    articleThreeContent.setVisibility(View.VISIBLE);
                     scrollView.scrollTo(0, 0);
                 }
             }
@@ -85,5 +100,6 @@ public class MainActivity extends AppCompatActivity {
     public void setContentsToGone(){
         articleOneContent.setVisibility(View.GONE);
         articleTwoContent.setVisibility(View.GONE);
+        articleThreeContent.setVisibility(View.GONE);
     }
 }
