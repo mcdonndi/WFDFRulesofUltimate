@@ -9,10 +9,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    ScrollView scrollView;
     TextView articleOne, articleTwo;
     LinearLayout articleOneContent, articleTwoContent;
 
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        scrollView = (ScrollView) findViewById(R.id.scrollView);
 
         articleOne = (TextView) findViewById(R.id.article1);
         articleTwo = (TextView) findViewById(R.id.article2);
@@ -50,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     setContentsToGone();
                     articleTwoContent.setVisibility(View.VISIBLE);
+                    scrollView.scrollTo(0, 0);
                 }
             }
         });
