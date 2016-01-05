@@ -76,6 +76,9 @@
     <string name= "article4_5_2">4.5.2</string>
     <string name= "article4_5_3">4.5.3</string>
     <string name= "article4_6">4.6</string>
+    <string name= "article5_1">5.1</string>
+    <string name= "article5_2">5.2</string>
+    <string name= "article5_3">5.3</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -161,4 +164,10 @@ reached:</string>
     <string name= "article_4_point_5_point_3">the team that scored becomes defence and pulls next.</string>
     <string name= "article_4_point_6">A variation of the basic structure may be used to accommodate special competitions,
 number of players, age of players or available space.</string>
+    <!--Article 5-->
+    <string name= "article_5_point_1">Each team will put a maximum of seven (7) players and a minimum of five (5) players on
+the field during each point</string>
+    <string name= "article_5_point_2">A team may make (unlimited) substitutions only after a goal is scored and before the
+next pull, except for injury (Section 19).</string>
+    <string name= "article_5_point_3">Each team will nominate a captain to represent the team.</string>
 </resources>

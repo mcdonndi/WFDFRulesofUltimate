@@ -15,8 +15,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     ScrollView scrollView;
-    TextView articleOne, articleTwo, articleThree, articleFour;
-    LinearLayout articleOneContent, articleTwoContent, articleThreeContent, articleFourContent;
+    TextView articleOne, articleTwo, articleThree, articleFour, articleFive;
+    LinearLayout articleOneContent, articleTwoContent, articleThreeContent, articleFourContent, articleFiveContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +31,13 @@ public class MainActivity extends AppCompatActivity {
         articleTwo = (TextView) findViewById(R.id.article2);
         articleThree = (TextView) findViewById(R.id.article3);
         articleFour = (TextView) findViewById(R.id.article4);
+        articleFive = (TextView) findViewById(R.id.article5);
 
         articleOneContent = (LinearLayout) findViewById(R.id.article1Content);
         articleTwoContent = (LinearLayout) findViewById(R.id.article2Content);
         articleThreeContent = (LinearLayout) findViewById(R.id.article3Content);
         articleFourContent = (LinearLayout) findViewById(R.id.article4Content);
+        articleFiveContent = (LinearLayout) findViewById(R.id.article5Content);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -88,6 +90,19 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        articleFive.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if(articleFiveContent.getVisibility() == View.VISIBLE) {
+                    articleFiveContent.setVisibility(View.GONE);
+                }
+                else{
+                    setContentsToGone();
+                    articleFiveContent.setVisibility(View.VISIBLE);
+                    scrollView.scrollTo(0, 0);
+                }
+            }
+        });
     }
 
     @Override
@@ -117,5 +132,6 @@ public class MainActivity extends AppCompatActivity {
         articleTwoContent.setVisibility(View.GONE);
         articleThreeContent.setVisibility(View.GONE);
         articleFourContent.setVisibility(View.GONE);
+        articleFiveContent.setVisibility(View.GONE);
     }
 }
