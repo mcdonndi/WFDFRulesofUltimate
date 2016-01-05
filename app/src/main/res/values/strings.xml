@@ -67,6 +67,15 @@
     <string name= "article3_2">3.2</string>
     <string name= "article3_3">3.3</string>
     <string name= "article3_4">3.4</string>
+    <string name= "article4_1">4.1</string>
+    <string name= "article4_2">4.2</string>
+    <string name= "article4_3">4.3</string>
+    <string name= "article4_4">4.4</string>
+    <string name= "article4_5">4.5</string>
+    <string name= "article4_5_1">4.5.1</string>
+    <string name= "article4_5_2">4.5.2</string>
+    <string name= "article4_5_3">4.5.3</string>
+    <string name= "article4_6">4.6</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -139,4 +148,17 @@ line, any obstructed player or thrower in possession may call “Violation”.</
     <string name= "article_3_point_3">Each player must wear a uniform that distinguishes their team.</string>
     <string name= "article_3_point_4">No player may wear items of clothing or equipment that reasonably could harm the
 wearer or other players.</string>
+    <!--Article 4-->
+    <string name= "article_4_point_1">A game consists of a number of points. Each point ends with the scoring of a goal.</string>
+    <string name= "article_4_point_2">A game is finished and won by the first team to score seventeen (17) goals.</string>
+    <string name= "article_4_point_3">A game is separated into two (2) periods of play, called halves. Half time occurs when a
+team first scores nine (9) goals.</string>
+    <string name= "article_4_point_4">The first point of each half starts when the half starts.</string>
+    <string name= "article_4_point_5">After a goal is scored, and the game has not been won or half time has not been
+reached:</string>
+    <string name= "article_4_point_5_point_1">the next point starts immediately; and</string>
+    <string name= "article_4_point_5_point_2">the teams switch the end zone that they are defending; and</string>
+    <string name= "article_4_point_5_point_3">the team that scored becomes defence and pulls next.</string>
+    <string name= "article_4_point_6">A variation of the basic structure may be used to accommodate special competitions,
+number of players, age of players or available space.</string>
 </resources>
