@@ -15,8 +15,9 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     ScrollView scrollView;
-    TextView articleOne, articleTwo, articleThree, articleFour, articleFive;
-    LinearLayout articleOneContent, articleTwoContent, articleThreeContent, articleFourContent, articleFiveContent;
+    TextView articleOne, articleTwo, articleThree, articleFour, articleFive, articleSix;
+    LinearLayout articleOneContent, articleTwoContent, articleThreeContent, articleFourContent, articleFiveContent,
+            articleSixContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +33,14 @@ public class MainActivity extends AppCompatActivity {
         articleThree = (TextView) findViewById(R.id.article3);
         articleFour = (TextView) findViewById(R.id.article4);
         articleFive = (TextView) findViewById(R.id.article5);
+        articleSix = (TextView) findViewById(R.id.article6);
 
         articleOneContent = (LinearLayout) findViewById(R.id.article1Content);
         articleTwoContent = (LinearLayout) findViewById(R.id.article2Content);
         articleThreeContent = (LinearLayout) findViewById(R.id.article3Content);
         articleFourContent = (LinearLayout) findViewById(R.id.article4Content);
         articleFiveContent = (LinearLayout) findViewById(R.id.article5Content);
+        articleSixContent = (LinearLayout) findViewById(R.id.article6Content);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -103,6 +106,19 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        articleSix.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if(articleSixContent.getVisibility() == View.VISIBLE) {
+                    articleSixContent.setVisibility(View.GONE);
+                }
+                else{
+                    setContentsToGone();
+                    articleSixContent.setVisibility(View.VISIBLE);
+                    scrollView.scrollTo(0, 0);
+                }
+            }
+        });
     }
 
     @Override
@@ -133,5 +149,6 @@ public class MainActivity extends AppCompatActivity {
         articleThreeContent.setVisibility(View.GONE);
         articleFourContent.setVisibility(View.GONE);
         articleFiveContent.setVisibility(View.GONE);
+        articleSixContent.setVisibility(View.GONE);
     }
 }

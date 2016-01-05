@@ -79,6 +79,11 @@
     <string name= "article5_1">5.1</string>
     <string name= "article5_2">5.2</string>
     <string name= "article5_3">5.3</string>
+    <string name= "article6_1">6.1</string>
+    <string name= "article6_1_1">4.1.1</string>
+    <string name= "article6_1_2">4.1.2</string>
+    <string name= "article6_2">6.2</string>
+    <string name= "article6_3">6.3</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -166,8 +171,14 @@ reached:</string>
 number of players, age of players or available space.</string>
     <!--Article 5-->
     <string name= "article_5_point_1">Each team will put a maximum of seven (7) players and a minimum of five (5) players on
-the field during each point</string>
+the field during each point.</string>
     <string name= "article_5_point_2">A team may make (unlimited) substitutions only after a goal is scored and before the
 next pull, except for injury (Section 19).</string>
     <string name= "article_5_point_3">Each team will nominate a captain to represent the team.</string>
+    <!--Article 6-->
+    <string name= "article_6_point_1">The captains of the two teams fairly determine which team first chooses either:</string>
+    <string name= "article_6_point_1_point_1">whether to receive or throw the initial pull; or</string>
+    <string name= "article_6_point_1_point_2">which end zone they will defend.</string>
+    <string name= "article_6_point_2">The other team is given the remaining choice.</string>
+    <string name= "article_6_point_3">At the start of the second half, these initial selections are switched.</string>
 </resources>
