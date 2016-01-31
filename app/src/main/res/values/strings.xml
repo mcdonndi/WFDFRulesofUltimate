@@ -80,10 +80,23 @@
     <string name= "article5_2">5.2</string>
     <string name= "article5_3">5.3</string>
     <string name= "article6_1">6.1</string>
-    <string name= "article6_1_1">4.1.1</string>
-    <string name= "article6_1_2">4.1.2</string>
+    <string name= "article6_1_1">6.1.1</string>
+    <string name= "article6_1_2">6.1.2</string>
     <string name= "article6_2">6.2</string>
     <string name= "article6_3">6.3</string>
+    <string name= "article7_1">7.1</string>
+    <string name= "article7_1_1">7.1.1</string>
+    <string name= "article7_2">7.2</string>
+    <string name= "article7_3">7.3</string>
+    <string name= "article7_4">7.4</string>
+    <string name= "article7_5">7.5</string>
+    <string name= "article7_6">7.6</string>
+    <string name= "article7_7">7.7</string>
+    <string name= "article7_8">7.8</string>
+    <string name= "article7_9">7.9</string>
+    <string name= "article7_10">7.10</string>
+    <string name= "article7_11">7.11</string>
+    <string name= "article7_12">7.12</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -181,4 +194,36 @@ next pull, except for injury (Section 19).</string>
     <string name= "article_6_point_1_point_2">which end zone they will defend.</string>
     <string name= "article_6_point_2">The other team is given the remaining choice.</string>
     <string name= "article_6_point_3">At the start of the second half, these initial selections are switched.</string>
+    <!--Article 7-->
+    <string name= "article_7_point_1">At the start of the game, after half-time or after a score, play commences with a throwoff,
+called a pull.</string>
+    <string name= "article_7_point_1_point_1">Teams must prepare for the pull without unreasonable delay.</string>
+    <string name= "article_7_point_2">The pull consists of a defensive player throwing the disc to begin play, after both teams
+have signalled their readiness by having at least one player on each team raise a hand
+above their head.</string>
+    <string name= "article_7_point_3">Once ready, and until the pull is released, all offensive players must stand with one foot
+on their defending goal line without changing position relative to one another.</string>
+    <string name= "article_7_point_4">All defensive players must be entirely inside their defending end zone when the pull is
+released.</string>
+    <string name= "article_7_point_5">If a team breaches 7.3 or 7.4 the opposing team must call the violation (“offside”) before
+the receiving team touches the disc. The pull must be repeated as quickly as possible.</string>
+    <string name= "article_7_point_6">As soon as the disc is released, all players may move in any direction.</string>
+    <string name= "article_7_point_7">No player on the defensive team may touch the disc after a pull until a member of the
+offensive team contacts the disc or the disc contacts the ground.</string>
+    <string name= "article_7_point_8">If an offensive player, in-bounds or out-of-bounds, touches the disc before it hits the
+ground, and the offensive team fails to catch it, that is a turnover (a “dropped pull”).</string>
+    <string name= "article_7_point_9">If the disc initially contacts the playing field and never becomes out-of-bounds, or is
+caught in-bounds, the thrower establishes the pivot where the disc stops.</string>
+    <string name= "article_7_point_10">. If the disc initially contacts the playing field and then becomes out-of-bounds without
+contacting an offensive player, the thrower establishes the pivot at the point on the
+central zone closest to where the disc went out-of-bounds (Section 11.7)</string>
+    <string name= "article_7_point_11">If the disc initially contacts the playing field and then becomes out-of-bounds after
+contacting an offensive player, or an offensive player catches the pull out-of-bounds, the
+thrower establishes the pivot at the point on the playing field closest to where the disc
+became out-of-bounds (Section 11.5).</string>
+    <string name= "article_7_point_12">If the disc contacts the out-of-bounds area without first touching the playing field or an
+offensive player, the thrower may establish the pivot either at the brick mark closest to
+their defending end zone, or at the spot on the central zone closest to where the disc
+went out-of-bounds (Section 11.7). The brick option must be signalled by the intended
+thrower before picking up the disc by fully extending one arm above their head.</string>
 </resources>
