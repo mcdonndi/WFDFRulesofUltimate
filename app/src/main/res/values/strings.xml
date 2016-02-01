@@ -97,6 +97,17 @@
     <string name= "article7_10">7.10</string>
     <string name= "article7_11">7.11</string>
     <string name= "article7_12">7.12</string>
+    <string name= "article8_1">8.1</string>
+    <string name= "article8_1_1">8.1.1</string>
+    <string name= "article8_1_2">8.1.2</string>
+    <string name= "article8_1_3">8.1.3</string>
+    <string name= "article8_2">8.2</string>
+    <string name= "article8_3">8.3</string>
+    <string name= "article8_4">8.4</string>
+    <string name= "article8_5">8.5</string>
+    <string name= "article8_6">8.6</string>
+    <string name= "article8_6_1">8.6.1</string>
+    <string name= "article8_6_2">8.6.2</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -195,7 +206,7 @@ next pull, except for injury (Section 19).</string>
     <string name= "article_6_point_2">The other team is given the remaining choice.</string>
     <string name= "article_6_point_3">At the start of the second half, these initial selections are switched.</string>
     <!--Article 7-->
-    <string name= "article_7_point_1">At the start of the game, after half-time or after a score, play commences with a throwoff,
+    <string name= "article_7_point_1">At the start of the game, after half-time or after a score, play commences with a throw-off,
 called a pull.</string>
     <string name= "article_7_point_1_point_1">Teams must prepare for the pull without unreasonable delay.</string>
     <string name= "article_7_point_2">The pull consists of a defensive player throwing the disc to begin play, after both teams
@@ -226,4 +237,25 @@ offensive player, the thrower may establish the pivot either at the brick mark c
 their defending end zone, or at the spot on the central zone closest to where the disc
 went out-of-bounds (Section 11.7). The brick option must be signalled by the intended
 thrower before picking up the disc by fully extending one arm above their head.</string>
+    <!--Article 8-->
+    <string name= "article_8_point_1">The disc is dead, and no turnover is possible:</string>
+    <string name= "article_8_point_1_point_1">After the start of a point, until the pull is released;</string>
+    <string name= "article_8_point_1_point_2">After the pull or after a turnover when the disc must be carried to the location
+of the correct pivot point, until a pivot is established; or</string>
+    <string name= "article_8_point_1_point_3">After a call which stops the play or any other stoppage, until the disc is checked
+in.</string>
+    <string name= "article_8_point_2">A disc that is not dead is live.</string>
+    <string name= "article_8_point_3">The thrower may not transfer possession of a dead disc to another player.</string>
+    <string name= "article_8_point_4">Any player may attempt to stop a disc from rolling or sliding after it has hit the ground.</string>
+    <string name= "article_8_point_5">If, in attempting to stop such a disc, a player significantly alters the disc’s position, the
+opposition may request that the pivot be established at the location where the disc was
+contacted.</string>
+    <string name= "article_8_point_6">After a turnover, the team that has gained possession of the disc must continue play
+without delay. The intended thrower must move at walking pace or faster to directly
+retrieve the disc and establish a pivot.</string>
+    <string name= "article_8_point_6_point_1">If the offence breaches 8.6 the defence may give a verbal warning (“Delay of
+Game”) or may call a “Violation”.</string>
+    <string name= "article_8_point_6_point_2">If the intended thrower is within three (3) metres of the pivot point and, after
+the verbal warning, continues to breach 8.6 the marker may commence the stall
+count.</string>
 </resources>
