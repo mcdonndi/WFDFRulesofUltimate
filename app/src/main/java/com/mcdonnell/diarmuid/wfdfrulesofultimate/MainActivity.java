@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
     ScrollView scrollView;
     TextView articleOne, articleTwo, articleThree, articleFour, articleFive, articleSix, articleSeven, articleEight,
-            articleNine;
+            articleNine, articleTen;
     LinearLayout articleOneContent, articleTwoContent, articleThreeContent, articleFourContent, articleFiveContent,
-            articleSixContent, articleSevenContent, articleEightContent, articleNineContent;
+            articleSixContent, articleSevenContent, articleEightContent, articleNineContent, articleTenContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         articleSeven = (TextView) findViewById(R.id.article7);
         articleEight = (TextView) findViewById(R.id.article8);
         articleNine = (TextView) findViewById(R.id.article9);
+        articleTen = (TextView) findViewById(R.id.article10);
 
         articleOneContent = (LinearLayout) findViewById(R.id.article1Content);
         articleTwoContent = (LinearLayout) findViewById(R.id.article2Content);
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         articleSevenContent = (LinearLayout) findViewById(R.id.article7Content);
         articleEightContent = (LinearLayout) findViewById(R.id.article8Content);
         articleNineContent = (LinearLayout) findViewById(R.id.article9Content);
+        articleTenContent = (LinearLayout) findViewById(R.id.article10Content);
 
         articleOne.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -165,6 +167,19 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        articleTen.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                if(articleTenContent.getVisibility() == View.VISIBLE) {
+                    articleTenContent.setVisibility(View.GONE);
+                }
+                else{
+                    setContentsToGone();
+                    articleTenContent.setVisibility(View.VISIBLE);
+                    scrollView.scrollTo(0, 0);
+                }
+            }
+        });
     }
 
     @Override
@@ -199,5 +214,6 @@ public class MainActivity extends AppCompatActivity {
         articleSevenContent.setVisibility(View.GONE);
         articleEightContent.setVisibility(View.GONE);
         articleNineContent.setVisibility(View.GONE);
+        articleTenContent.setVisibility(View.GONE);
     }
 }

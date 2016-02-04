@@ -121,6 +121,19 @@
     <string name= "article9_5_3">9.5.3</string>
     <string name= "article9_5_4">9.5.4</string>
     <string name= "article9_6">9.6</string>
+    <string name= "article10_1">10.1</string>
+    <string name= "article10_2">10.2</string>
+    <string name= "article10_2_1">10.2.1</string>
+    <string name= "article10_2_2">10.2.2</string>
+    <string name= "article10_2_3">10.2.3</string>
+    <string name= "article10_3">10.3</string>
+    <string name= "article10_4">10.4</string>
+    <string name= "article10_4_1">10.4.1</string>
+    <string name= "article10_5">10.5</string>
+    <string name= "article10_5_1">10.5.1</string>
+    <string name= "article10_5_2">10.5.2</string>
+    <string name= "article10_5_3">10.5.3</string>
+    <string name= "article10_6">10.6</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -280,7 +293,7 @@ stall count must be at least one (1) second.</string>
     <string name= "article_9_point_3_point_1">The disc is live (unless specified otherwise);</string>
     <string name= "article_9_point_3_point_2">They are within three (3) metres of the thrower; and</string>
     <string name= "article_9_point_3_point_3">All defenders are legally positioned (Section18.1).</string>
-    <string name= "article_9_point_4">. If the marker moves more than three (3) metres from the thrower, or a different player
+    <string name= "article_9_point_4">If the marker moves more than three (3) metres from the thrower, or a different player
 becomes the marker, the stall count must be restarted at one (1).</string>
     <string name= "article_9_point_5">After play stops the stall count is resumed as follows:</string>
     <string name= "article_9_point_5_point_1">After an uncontested breach by the defence the stall count is reset to one (1).</string>
@@ -290,5 +303,35 @@ nine (9).</string>
     <string name= "article_9_point_5_point_4">After all other calls the stall count restarts at maximum six (6).</string>
     <string name= "article_9_point_6">To restart a stall count “at maximum n”, where “n” is a number between one (1) and
 nine (9), means to announce “stalling” followed by the count at one more than the last
-number uttered prior to the stoppage, or by “n” if that value is greater than “n”</string>
+number uttered prior to the stoppage, or by “n” if that value is greater than “n”.</string>
+    <!--Article 10-->
+    <string name= "article_10_point_1">Whenever play stops during a point for a time-out, foul, violation, contested turnover,
+contested goal, technical stoppage, injury stoppage, or discussion, play must restart as
+quickly as possible with a check. The check may only be delayed for the discussion of a
+call.</string>
+    <string name= "article_10_point_2">Except in the case of a time-out:</string>
+    <string name= "article_10_point_2_point_1">All players must return to the positions they held when the event that caused
+the stoppage occurred, unless specified otherwise.</string>
+    <string name= "article_10_point_2_point_2">If the event that caused the stoppage occurred after the thrower released the
+disc, and the disc is returned to the thrower to restart play, all players must
+return to the positions they held when the thrower released the disc, unless
+specified otherwise</string>
+    <string name= "article_10_point_2_point_3">All players must remain stationary in that position until the disc is checked in.</string>
+    <string name= "article_10_point_3">Any player may briefly extend a stoppage of play to fix faulty equipment (“equipment”),
+but active play may not be stopped for this purpose.</string>
+    <string name= "article_10_point_4">The person checking the disc in must first verify with the nearest opposition player that
+their team is ready.</string>
+    <string name= "article_10_point_4_point_1">If there is an unnecessary delay in checking the disc in, the opposition may give a
+verbal warning (“Delay of Game”) and, if the delay continues, they may check
+the disc in by calling “Disc In”, without verification from the opposition.</string>
+    <string name= "article_10_point_5">To restart play:</string>
+    <string name= "article_10_point_5_point_1">if the disc is within reach of a defender, they must touch the disc and call "Disc
+In" or “Stalling”;</string>
+    <string name= "article_10_point_5_point_2">if the disc is not within reach of a defender, the thrower must touch the disc to
+the ground and call “Disc In”; or</string>
+    <string name= "article_10_point_5_point_3">if the disc is not within reach of a defender and there is no thrower, the
+defender nearest to the disc must call “Disc In”.</string>
+    <string name= "article_10_point_6">If the thrower attempts a pass before the check, or a violation of 10.2 is called, the pass
+does not count regardless of whether it is complete or incomplete, and possession
+reverts back to the thrower.</string>
 </resources>
