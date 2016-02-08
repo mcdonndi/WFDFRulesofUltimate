@@ -134,6 +134,20 @@
     <string name= "article10_5_2">10.5.2</string>
     <string name= "article10_5_3">10.5.3</string>
     <string name= "article10_6">10.6</string>
+    <string name= "article11_1">11.1</string>
+    <string name= "article11_2">11.2</string>
+    <string name= "article11_3">11.3</string>
+    <string name= "article11_3_1">11.3.1</string>
+    <string name= "article11_3_2">11.3.2</string>
+    <string name= "article11_3_2_1">11.3.2.1</string>
+    <string name= "article11_3_3">11.3.3</string>
+    <string name= "article11_4">11.4</string>
+    <string name= "article11_5">11.5</string>
+    <string name= "article11_6">11.6</string>
+    <string name= "article11_7">11.7</string>
+    <string name= "article11_7_1">11.7.1</string>
+    <string name= "article11_7_2">11.7.2</string>
+    <string name= "article11_8">11.8</string>
     <!--Article 1-->
     <string name= "article_1_point_1">Ultimate is a non-contact, self-refereed sport. All players are responsible for
 administering and adhering to the rules. Ultimate relies upon a Spirit of the Game that
@@ -315,7 +329,7 @@ the stoppage occurred, unless specified otherwise.</string>
     <string name= "article_10_point_2_point_2">If the event that caused the stoppage occurred after the thrower released the
 disc, and the disc is returned to the thrower to restart play, all players must
 return to the positions they held when the thrower released the disc, unless
-specified otherwise</string>
+specified otherwise.</string>
     <string name= "article_10_point_2_point_3">All players must remain stationary in that position until the disc is checked in.</string>
     <string name= "article_10_point_3">Any player may briefly extend a stoppage of play to fix faulty equipment (“equipment”),
 but active play may not be stopped for this purpose.</string>
@@ -334,4 +348,35 @@ defender nearest to the disc must call “Disc In”.</string>
     <string name= "article_10_point_6">If the thrower attempts a pass before the check, or a violation of 10.2 is called, the pass
 does not count regardless of whether it is complete or incomplete, and possession
 reverts back to the thrower.</string>
+    <!--Article 11-->
+    <string name= "article_11_point_1">The entire playing field is in-bounds. The perimeter lines are not part of the playing field
+and are out-of-bounds. All non-players are part of the out-of-bounds area.</string>
+    <string name= "article_11_point_2">The out-of-bounds area consists of the area which is not in-bounds and everything in
+contact with it, except for defensive players, who are always considered “in-bounds” for
+purposes of making a play on the disc.</string>
+    <string name= "article_11_point_3">An offensive player who is not out-of-bounds is in-bounds.</string>
+    <string name= "article_11_point_3_point_1">An airborne player retains their in-bounds/out-of-bounds status until that player
+contacts the playing field or the out-of-bounds area.</string>
+    <string name= "article_11_point_3_point_2">A thrower in possession of the disc, who contacts the playing field and then
+touches an out-of-bounds area, is still considered in-bounds.</string>
+    <string name= "article_11_point_3_point_2_point_1">If the thrower leaves the playing field, they must establish the pivot at the
+spot on the playing field where they crossed the perimeter line (unless
+14.2 is in effect).</string>
+    <string name= "article_11_point_3_point_3">Contact between players does not confer the state of being in- or out-ofbounds
+from one to another.</string>
+    <string name= "article_11_point_4">A disc is in-bounds once it is live, or when play starts or restarts.</string>
+    <string name= "article_11_point_5">A disc becomes out-of-bounds when it first contacts the out-of-bounds area or contacts
+an out-of-bounds offensive player. A disc in the possession of an offensive player has the
+same in/out-of-bounds status as that player. If the disc is simultaneously in the
+possession of more than one offensive player, one of them being out-of-bounds, the disc
+is out-of-bounds.</string>
+    <string name= "article_11_point_6">The disc may fly outside a perimeter line and return to the playing field, and players may
+go out-of-bounds to make a play on the disc.</string>
+    <string name= "article_11_point_7">The place where a disc went out-of-bounds is the spot where, prior to contacting an
+out-of-bounds area or player, the disc was most recently:</string>
+    <string name= "article_11_point_7_point_1">partly or wholly over the playing field; or</string>
+    <string name= "article_11_point_7_point_2">contacted by in-bounds player.</string>
+    <string name= "article_11_point_8">If the disc is out-of-bounds and more than three (3) metres from the pivot point, nonplayers
+may retrieve the disc. The thrower must carry the disc the last three (3) metres
+to the playing field.</string>
 </resources>
